@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  channelid: MyString
+  command: MyString
+  status: false
+
+two:
+  channelid: MyString
+  command: MyString
+  status: false

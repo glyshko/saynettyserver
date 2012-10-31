@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Acceskey:</b>
+  <%= @host.acceskey %>
+</p>
+
+<p>
+  <b>Active:</b>
+  <%= @host.active %>
+</p>
+
+
+<%= link_to 'Edit', edit_host_path(@host) %> |
+<%= link_to 'Back', hosts_path %>

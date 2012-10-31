@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Ipadress:</b>
+  <%= @login.ipadress %>
+</p>
+
+<p>
+  <b>Port:</b>
+  <%= @login.port %>
+</p>
+
+<p>
+  <b>Channelid:</b>
+  <%= @login.channelid %>
+</p>
+
+<p>
+  <b>State:</b>
+  <%= @login.state %>
+</p>
+
+<p>
+  <b>Acceskey:</b>
+  <%= @login.acceskey %>
+</p>
+
+
+<%= link_to 'Edit', edit_login_path(@login) %> |
+<%= link_to 'Back', logins_path %>

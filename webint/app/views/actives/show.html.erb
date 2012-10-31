@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @active.name %>
+</p>
+
+<p>
+  <b>Channelid:</b>
+  <%= @active.channelid %>
+</p>
+
+
+<%= link_to 'Edit', edit_active_path(@active) %> |
+<%= link_to 'Back', actives_path %>

@@ -1,0 +1,31 @@
+<h1>Listing logins</h1>
+
+<table>
+  <tr>
+    <th>Ipadress</th>
+    <th>Port</th>
+    <th>Channelid</th>
+    <th>State</th>
+    <th>Acceskey</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @logins.each do |login| %>
+  <tr>
+    <td><%= login.ipadress %></td>
+    <td><%= login.port %></td>
+    <td><%= login.channelid %></td>
+    <td><%= login.state %></td>
+    <td><%= login.acceskey %></td>
+    <td><%= link_to 'Show', login %></td>
+    <td><%= link_to 'Edit', edit_login_path(login) %></td>
+    <td><%= link_to 'Destroy', login, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Login', new_login_path %>

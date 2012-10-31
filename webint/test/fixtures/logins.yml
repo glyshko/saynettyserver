@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  ipadress: MyString
+  port: 
+  channelid: MyString
+  state: MyString
+  acceskey: MyString
+
+two:
+  ipadress: MyString
+  port: 
+  channelid: MyString
+  state: MyString
+  acceskey: MyString

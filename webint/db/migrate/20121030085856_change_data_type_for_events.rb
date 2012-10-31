@@ -1,0 +1,10 @@
+class ChangeDataTypeForEvents < ActiveRecord::Migration
+  def up
+	change_table :events do |t|  
+  		t.change :status, :integer 
+	end
+  end
+
+  def down
+  end
+end
